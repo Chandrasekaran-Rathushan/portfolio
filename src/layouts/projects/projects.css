@@ -1,0 +1,32 @@
+.project-container {
+    width: 100%;
+    height: 100%;
+    background-color: #1a2733;
+    background: #1a2733;
+    color: white;
+}
+
+.project-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.6rem;
+    background: rgba(255, 255, 255, 0.025);
+
+}
+
+.project-cards-container>.card {
+    margin-top: 2rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.project-cards-container .card .card-body>.card-title {
+    text-align: center;
+}
+
+.project-cards-container .card .card-body>.card-text {
+    text-align: justify;
+}
