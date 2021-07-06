@@ -47,4 +47,8 @@
         position: relative;
         padding-bottom: 2rem;
     }
+
+    .contact-container .contact-section {
+        margin: 2rem 1rem;
+    }
 }

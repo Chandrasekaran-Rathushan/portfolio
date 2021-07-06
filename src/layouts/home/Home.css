@@ -175,7 +175,7 @@
 
 @media screen and (max-width: 700px) {
     .containerfluid{
-        padding-bottom: 4rem;
+        padding-bottom: 10rem;
     }
     .containerfluid .intro {
         flex-direction: column;
