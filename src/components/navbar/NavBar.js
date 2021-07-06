@@ -36,7 +36,7 @@ const NavBar = () => {
                 
             <div className='section navbar-container'>
                 <ul className='navbar'onClick={() => {handleNavLinkClick()}}>
-                    <li className='li'><NavLink className='link' to="/">Home</NavLink></li>
+                    <li className='li'><NavLink className='link' to="/index">Home</NavLink></li>
                     <li className='li'><NavLink className='link' to="/projects">Projects</NavLink></li>
                     <li className='li'><NavLink className='link' to='/contact'>Contact</NavLink></li>
                 </ul>
